@@ -1,0 +1,180 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1a1c26;
+}
+
+.navbar {
+  background-color: #1a1c26;
+  padding: 40px 150px;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 34px;
+}
+
+.nav-btn {
+  color: #00aaff;
+  border: 1px solid #00aaff;
+  border-radius: 20px;
+  padding: 3px 20px;
+  text-decoration: none;
+  transition:0.1s ease-in-out;
+}
+
+.navbar .links{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-link-custom {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 20px;
+}
+
+.nav-link-custom:hover {
+  border: 1px solid #00aaff;
+  border-radius: 20px;
+  padding: 3px 20px;
+  text-decoration: none;
+  color: #00aaff;
+
+}
+
+.demo{
+  font-size: 10px;
+}
+
+/* Hero */
+
+.hero-section {
+  background: 
+    linear-gradient(to bottom, 
+      rgba(0,0,0,0) 45%,
+      #1f1e2a 50%
+    ),
+    url('../images/banner.png') no-repeat top center ;
+  min-height: 75vh;
+  padding: clamp(24px, 4vw, 48px) 10px 60px;
+}
+
+.search-input {
+  background-color: #1a1c26;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  color: #fff;
+}
+.search-box form {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 35px;
+  background-color: #00aaff;
+  border-radius: 30px;
+}
+.search-input::placeholder {
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.row .item{
+  background-color: #323544;
+}
+
+#today-date{
+  background-color: #2D303D;
+}
+
+#tomorrow-date{
+  background-color: #222530;
+}
+
+.item-tomorrow{
+  background-color: #262936;
+}
+
+#after-tomorrow-date{
+  background-color: #2D303D;
+}
+
+.item-after-tomorrow{
+  background-color: #323544;
+}
+
+.temp{
+  font-size: 72px;
+  font-weight: 700; 
+}
+
+#today-condition-img{
+  width: 90px;
+}
+
+.next-condition-img{
+  width: 48px;
+}
+
+.footer-icon{
+  width: 21px;
+  height: 21px;
+  border: 0;
+}
+ /* Footer */
+.footer {
+  background-color: #222533; 
+}
+
+.footer .subscribe form{
+  position: relative;
+}
+
+.subscribe-input {
+  background-color: #1a1c26;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.subscribe-input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 25px;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 30px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1c26;
+  color: #00aaff;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  background-color: #00aaff;
+  color: #fff;
+}
+.footer p{
+  margin-left: 120px;
+}
+
